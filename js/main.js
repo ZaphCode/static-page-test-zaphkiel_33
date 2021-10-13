@@ -1,4 +1,4 @@
 window.addEventListener('load', () => {
-    alert('Hello world')
-    console.log('test')
+    let titles = document.getElementsByClassName('title')
+    console.log(titles[0])
 });
